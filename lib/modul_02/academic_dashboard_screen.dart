@@ -3,6 +3,7 @@ import 'models/course.dart';
 import 'widgets/course_card.dart';
 import 'widgets/header_banner.dart';
 
+
 class AcademicDashboardScreen extends StatefulWidget {
   const AcademicDashboardScreen({super.key});
 

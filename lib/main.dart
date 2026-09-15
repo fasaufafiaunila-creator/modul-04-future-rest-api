@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'modul_01/profile_screen.dart';
 import 'modul_02/academic_dashboard_screen.dart';
+import 'modul_02/studi kasus/ruangpraktikum.dart';
 import 'modul_03/modul_03_app.dart';
 import 'modul_04/modul_04_app.dart';
+
 
 void main() {
   runApp(const PoliwangiStarterApp());
@@ -240,7 +242,7 @@ class _ModuleLauncherScreenState extends State<ModuleLauncherScreen> {
             moduleNumber: 2,
             title: 'Declarative UI & Responsive Dashboard',
             subtitle: 'BoxConstraints, LayoutBuilder 1 vs 2 Kolom, Material 3',
-            builder: () => const AcademicDashboardScreen(),
+            builder: () => const RuangPraktikumScreen(),
           ),
           const SizedBox(height: 10),
           _buildModuleCard(

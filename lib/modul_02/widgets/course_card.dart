@@ -4,8 +4,7 @@ import '../models/course.dart';
 class CourseCard extends StatelessWidget {
   final Course course;
 
-  const CourseCard({super.key, required this.course});
-
+ const CourseCard({super.key, required this.course});
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
